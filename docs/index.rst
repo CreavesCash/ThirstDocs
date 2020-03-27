@@ -124,7 +124,7 @@ Will give you::
   Hello
   World!
 
-Keep in mind tho, if you reference a variable before it's defined::
+Keep in mind though, if you reference a variable before it's defined::
 
 	OUTPT $myvariable
 	$myvariable = "Hello"

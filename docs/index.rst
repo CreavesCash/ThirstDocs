@@ -20,7 +20,7 @@ I'll put the installation stuff here when I put a proper thing. For now, clone t
 
 EDITING ENVIRONMENT
 ===========================
-At the moment, ThirstScript is only suitable for Windows computers. Sorry. If you have a multi-purpouse programming environment like Sublime Text, I would encourage you to use that. Save your files with the .thsc file ending and move on to **My first script**. If not, you probably have notepad. Follow along the Notepad instructions below.
+At the moment, ThirstScript is only suitable for Windows computers. Sorry. If you have a multi-purpouse programming environment like Sublime Text, I would encourage you to use that. Save your files with the .thsc file ending and move on to - `My First Script <https://thirstdocs.readthedocs.io/en/latest/#my-first-script>`_. If not, you probably have notepad. Follow along the Notepad instructions below.
 
 NOTEPAD AS AN EDITOR
 ===========================

@@ -136,7 +136,7 @@ You will wind up with this message::
 Yes, I did put "You numpty" in the error message. I want to make the errors as jovial as possible to put my users at ease when they make a mistake.
 
 "IF" statements
-===========================
+~~~~~~~~~~~~~~~~~~~~
 You're probably familiar with "if" statements. If not, here's how they're handled in Python::
 
   if x == 1:
@@ -146,4 +146,38 @@ That means *if* the variable "x" is equal to 1 *then* print this. It's quite sim
 
   if x == 1 let:
     OUTPT "X is equal to 1! Wow!"
+  endif
+
+Note the "endif" to mark the end of the If statement.
+
+AND GATES
+~~~~~~~~~~~~~~~~~~~~
+In Python, if you want to make two conditions filled, you would write::
+
+	if x == 1 and y == 1:
+		print ("Two conditions whaaat")
+
+However, in Thirst you need to use an AND GATE. An AND GATE is a way of showing more than one condition. The syntax is as follows::
+
+	ANDG-2-x == 1-y == 1:
+		OUTPT "Two conditions whaaat"
+
+Let's break this down. First the ```ANDG``` signifies that it's an AND GATE. Then the following number means the amount of conditions that need to be fulfilled. Then afterwards come the conditions. Each argument is seperated by a hyphen (-). So to recap::
+
+	ANDG-[ConditionNumber]-[Condition 1]-[Condition 2] etc.
+
+May look a little confusing at first, but you'll get the hang of it.
+
+OR GATES
+~~~~~~~~~~~~~~~~~~~~
+OR GATES are very similar to AND GATES, exept only one of the conditions has to be fulfillied. Python syntax::
+
+	if x == 1 or y == 1:
+		print ("One of them equals one... Magical!")
+
+In Thirst::
+
+	ORG-2-x == 1-y == 1:
+		OUTPUT "One of them equals one... Magical!"
+
 

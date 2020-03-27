@@ -1,3 +1,5 @@
+# YAAAAY
+
 This is ThirstScript, my stupid little work-in-progress programming language.
 
 QUICK CHANGELOG

@@ -25,7 +25,11 @@ If you wish to use notepad as an editor, create a notepad file called "Test.thsc
 MY FIRST SCRIPT
 ===========================
 In the early stages, ThirstScript syntax is very similar to that of Python or BASIC, so a basic (haha) understanding of either would be useful. In python, the "print" command runs thusly::
+
   print ("Hello World!")
+
 The syntax in ThirstScript is similar, as it runs like this::
+
   OUTPT "Hello World!"
-The :OUTPUT command
+
+The `OUTPT` command is the syntax for outputting anything, be it a string, a variable, a number or an expression.

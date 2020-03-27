@@ -33,3 +33,5 @@ The syntax in ThirstScript is similar, as it runs like this::
   OUTPT "Hello World!"
 
 The `OUTPT` command is the syntax for outputting anything, be it a string, a variable, a number or an expression.
+
+The outpt command is not sensitive, as it works in lowercase too.

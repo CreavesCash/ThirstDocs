@@ -41,4 +41,4 @@ The ```OUTPT``` command is the syntax for outputting anything, be it a string, a
 The outpt command is not case sensitive, as it works in lowercase too.
 
 Nice! So, you've created a script. Save it as "Test.thsc", then to run it, store it in the same folder as ThirstScript.exe. Next, go to the command line! To get to the command line, click on this bar at the top of the folder:
-[![CM LINE](https://media.discordapp.net/attachments/674670422544875520/693126538060890222/unknown.png)
+.. image:: /CMLINE.jpg

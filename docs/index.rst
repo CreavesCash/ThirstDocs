@@ -11,3 +11,5 @@ Inital Lexer and Parser mostly done, statements "OUTPT", "INPUT" "IF" "THEN" "$V
 
 INTRODUCTION
 ==============================
+ThirstScript is my first attempt at creating a programming language. I am 14 years old, so manage your expectations.
+I wanted to combine the ease of parsing with python, with programs like AutoHotKey.

@@ -1,4 +1,5 @@
-# YAAAAY
+Welcome to Thirst Script
+===========================
 
 This is ThirstScript, my stupid little work-in-progress programming language.
 

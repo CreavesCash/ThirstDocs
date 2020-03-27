@@ -14,16 +14,16 @@ INTRODUCTION
 ThirstScript is my first attempt at creating a programming language. I am 14 years old, so manage your expectations.
 I wanted to combine the ease of parsing with python, with programs like AutoHotKey. So that's what this is, really. A hot mess.
 
-INSTALLATION
-==============================
+Installation
+~~~~~~~~~~~~~~~~~~~~
 I'll put the installation stuff here when I put a proper thing. For now, clone the git repo.
 
-EDITING ENVIRONMENT
-===========================
+Editing Environment
+~~~~~~~~~~~~~~~~~~~~
 At the moment, ThirstScript is only suitable for Windows computers. Sorry. If you have a multi-purpouse programming environment like Sublime Text, I would encourage you to use that. Save your files with the .thsc file ending and move on to `My First Script <https://thirstdocs.readthedocs.io/en/latest/#id1>`_. If not, you probably have notepad. Follow along the Notepad instructions below.
 
-NOTEPAD AS AN EDITOR
-===========================
+Notepad as an editor
+~~~~~~~~~~~~~~~~~~~~
 If you wish to use notepad as an editor, create a notepad file called "Test.thsc". It will create a file called "Test.thsc.exe". Rename it to "Test.thsc". If a popup comes up asking if you're sure, say yes. I hate those. Hooray you did it now move on to **My first script**.
 
 MY FIRST SCRIPT
@@ -55,7 +55,7 @@ Press enter and you should get this output::
 Pretty neat, eh? Now let's talk about other syntax!
 
 Outputting with "OUTPT"
-===========================
+~~~~~~~~~~~~~~~~~~~~
 So as you saw before, to ouput a string you use the following syntax::
 
   OUTPT "Hello World!"
@@ -83,7 +83,7 @@ Will Output::
 I know what you're thinking: "Wow! Calculation! Is there anything ThirstScript can't do?" Well hold on to your hats, because we're about to cover variables.
 
 Variables
-===========================
+~~~~~~~~~~~~~~~~~~~~
 In Python, variables are defined and then referenced like this::
 
   myvariable = 1

@@ -20,7 +20,7 @@ I'll put the installation stuff here when I put a proper thing. For now, clone t
 
 Editing Environment
 ~~~~~~~~~~~~~~~~~~~~
-At the moment, ThirstScript is only suitable for Windows computers. Sorry. If you have a multi-purpouse programming environment like Sublime Text, I would encourage you to use that. Save your files with the .thsc file ending and move on to `My First Script <https://thirstdocs.readthedocs.io/en/latest/#id1>`_. If not, you probably have notepad. Follow along the Notepad instructions below.
+At the moment, ThirstScript is only suitable for Windows computers. Sorry. If you have a multi-purpose programming environment like Sublime Text, I would encourage you to use that. Save your files with the .thsc file ending and move on to `My First Script <https://thirstdocs.readthedocs.io/en/latest/#id1>`_. If not, you probably have notepad. Follow along the Notepad instructions below.
 
 Notepad as an editor
 ~~~~~~~~~~~~~~~~~~~~
@@ -28,11 +28,11 @@ If you wish to use notepad as an editor, create a notepad file called "Test.thsc
 
 MY FIRST SCRIPT
 ===========================
-In the early stages, ThirstScript syntax is very similar to that of Python or BASIC, so a basic (haha) understanding of either would be useful. In python, the "print" command runs thusly::
+In the early stages, ThirstScript syntax is very similar to that of Python or BASIC, so a basic (haha) understanding of either would be useful. In **Python**, the "print" command runs thusly::
 
   print ("Hello World!")
 
-The syntax in ThirstScript is similar, as it runs like this::
+The syntax in **ThirstScript** is similar, as it runs like this::
 
   OUTPT "Hello World!"
 
@@ -40,11 +40,11 @@ The ```OUTPT``` command is the syntax for outputting anything, be it a string, a
 
 The outpt command is not case sensitive, as it works in lowercase too.
 
-Nice! So, you've created a script. Save it as "Test.thsc", then to run it, store it in the same folder as ThirstScript.exe. Next, go to the command line! To get to the command line, click on this bar at the top of the folder:
+Nice! So, you've created a script. Save it as "Test.thsc", then to run it, store it in the same folder as **ThirstScript.exe.** Next, go to the command line! To get to the command line, click on this bar at the top of the folder:
 
 .. image:: /cmline.JPG
 
-Click to select it, delete it all and write "cmd". Press enter. Now type this into the command prompt::
+Click to select it, delete it all and write "**cmd**". Press enter. Now type this into the command prompt::
 
   thirst.exe Test.thsc
 
@@ -84,12 +84,12 @@ I know what you're thinking: "Wow! Calculation! Is there anything ThirstScript c
 
 Variables
 ~~~~~~~~~~~~~~~~~~~~
-In Python, variables are defined and then referenced like this::
+In **Python**, variables are defined and then referenced like this::
 
   myvariable = 1
   print (myvariable)
 
-That will output "1". In Thirst, it's almost the same::
+That will output "1". In **Thirst**, it's almost the same::
 
   $myvariable = 1
   OUTPT $myvariable
@@ -137,12 +137,12 @@ Yes, I did put "You numpty" in the error message. I want to make the errors as j
 
 "IF" statements
 ~~~~~~~~~~~~~~~~~~~~
-You're probably familiar with "if" statements. If not, here's how they're handled in Python::
+You're probably familiar with "if" statements. If not, here's how they're handled in **Python**::
 
   if x == 1:
     print ("X is equal to 1! Wow!")
 
-That means *if* the variable "x" is equal to 1 *then* print this. It's quite similar in Thirst::
+That means *if* the variable "x" is equal to 1 *then* print this. It's quite similar in **Thirst**::
 
   if x == 1 let:
     OUTPT "X is equal to 1! Wow!"
@@ -152,12 +152,12 @@ Note the "endif" to mark the end of the If statement.
 
 AND GATES
 ~~~~~~~~~~~~~~~~~~~~
-In Python, if you want to make two conditions filled, you would write::
+In **Python**, if you want to make two conditions filled, you would write::
 
 	if x == 1 and y == 1:
 		print ("Two conditions whaaat")
 
-However, in Thirst you need to use an AND GATE. An AND GATE is a way of showing more than one condition. The syntax is as follows::
+However, in **Thirst** you need to use an AND GATE. An AND GATE is a way of showing more than one condition. The syntax is as follows::
 
 	ANDG-2-x == 1-y == 1:
 		OUTPT "Two conditions whaaat"
@@ -170,14 +170,43 @@ May look a little confusing at first, but you'll get the hang of it.
 
 OR GATES
 ~~~~~~~~~~~~~~~~~~~~
-OR GATES are very similar to AND GATES, exept only one of the conditions has to be fulfillied. Python syntax::
+OR GATES are very similar to AND GATES, exept only one of the conditions has to be fulfillied. **Python syntax**::
 
 	if x == 1 or y == 1:
 		print ("One of them equals one... Magical!")
 
-In Thirst::
+**In Thirst**::
 
 	ORG-2-x == 1-y == 1:
 		OUTPUT "One of them equals one... Magical!"
 
+Incredible. There are no NOT GATES yet unfortunately. Wait for now.
 
+ADVANCED SYNTAX
+===========================
+There are a few more bits of syntax that don't fit into "My First Script". That's because they're a little more complicated.
+
+An introduction to Potato Variables
+~~~~~~~~~~~~~~~~~~~~
+Now, "Potato" Variables as I've decided to call them, cos it's funny, or call 'em "slash" variables if you're boring. Potato Variables are types of variables that are different from "regular variables". Regular Variables contain either strings, numbers or expressions. Potato variables can handle:
+
+
+• Hotkeys
+
+• Sprites/Images
+
+• Discord Bot Clients
+
+
+So let's break down the different syntax for Potato Variables. As you may remember, **Regular Variables** are handled like this::
+
+	$myvariable = "hi"
+
+But **Potato Variables** are defined like this::
+
+	/myvariable
+
+I left the space aftewards intentionally blank for different syntax.
+
+.HotKey Potatoes
+~~~~~~~~~~~~~~~~~~~~

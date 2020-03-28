@@ -233,7 +233,7 @@ Now, "Potato" Variables as I've decided to call them, cos it's funny, or call 'e
 
 • Sprites/Images
 
-• `Discord Bot Clientst <https://thirstdocs.readthedocs.io/projects/Discord_Bots/en/latest/>`_
+• `Discord Bot Clients <https://thirstdocs.readthedocs.io/projects/Discord_Bots/en/latest/>`_
 
 • Music/Sound Files
 

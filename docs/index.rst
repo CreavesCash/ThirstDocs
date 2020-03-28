@@ -291,3 +291,5 @@ That's HotKeys done for now.
 These are potato variables that store images. Say I draw the following masterpiece:
 
 .. image:: /Masterpiece.png
+
+I know what you're thinking: "Wow what a renaissance man! Gifted in programming *and* art?" I know you're impressed at my prowess, but let's stay focused here, shall we?

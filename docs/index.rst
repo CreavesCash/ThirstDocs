@@ -222,5 +222,5 @@ Let's break this down. First, the name of the variable is "myhotkey". Then comes
 
 The function key synatx are:
 
-• ^ - Ctrl
-• + - Shift
+• *^* - Ctrl
+• *+* - Shift

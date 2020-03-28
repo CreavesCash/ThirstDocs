@@ -197,6 +197,8 @@ Now, "Potato" Variables as I've decided to call them, cos it's funny, or call 'e
 
 • Discord Bot Clients
 
+• Music/Sound Files
+
 
 So let's break down the different syntax for Potato Variables. As you may remember, **Regular Variables** are handled like this::
 

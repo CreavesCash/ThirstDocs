@@ -13,6 +13,7 @@ INTRODUCTION
 ===========================
 ThirstScript is my first attempt at creating a programming language. I am 14 years old, so manage your expectations.
 I wanted to combine the ease of parsing with python, with programs like AutoHotKey. So that's what this is, really. A hot mess.
+What follows is something of a "Beginner's guide" to using thirst. Please try.
 
 Installation
 ~~~~~~~~~~~~~~~~~~~~

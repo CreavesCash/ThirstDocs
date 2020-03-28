@@ -293,3 +293,17 @@ These are potato variables that store images. Say I draw the following masterpie
 .. image:: /Masterpiece.png
 
 I know what you're thinking: "Wow what a renaissance man! Gifted in programming *and* art?" I know you're impressed at my prowess, but let's stay focused here, shall we?
+
+Now say I'm composing a program that opens a window displaying this masterpiece for the world to see. I'd want to use a .image potato variable. Similar syntax to HotKey now, we want::
+
+	/mymasterpiece = .image([filename])
+
+Say the filename was "A study of ennui.png" then I would first store the image in the same folder as my script (and Thirst.exe, obvs). Then I would write in my script::
+
+	/studyofennui = .image(A study of ennui.png)
+
+Then I would use the image output command::
+
+	IMOUT = /studyofennui
+
+Haha, I just noticed that command looks like "I'm Out". Oh, what fun.

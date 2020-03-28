@@ -289,3 +289,5 @@ That's HotKeys done for now.
 .image Potatoes
 ~~~~~~~~~~~~~~~~~~~~
 These are potato variables that store images. Say I draw the following masterpiece:
+
+.. image1:: /Masterpiece.png

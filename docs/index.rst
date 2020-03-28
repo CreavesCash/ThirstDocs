@@ -308,3 +308,8 @@ Then I would use the image output command::
 	IMOUT = /studyofennui
 
 Haha, I just noticed that command looks like "I'm Out". Oh, what fun.
+
+.bot Potatoes
+~~~~~~~~~~~~~~~~~~~~
+If you want to learn the ways of creating discord bots and applications with Thirst, go to the special Discord Thirst docs at this link:
+https://thirstdocs.readthedocs.io/projects/Discord_Bots/en/latest/

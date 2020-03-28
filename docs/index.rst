@@ -212,3 +212,15 @@ I left the space aftewards intentionally blank for different syntax.
 
 .HotKey Potatoes
 ~~~~~~~~~~~~~~~~~~~~
+Hotkeys are keystrokes simulated by a script. Say you wanted it so when you ran a script, the script would type "Hello World!" without you having to do anything. Sound amazing? First you have to define the potato variable::
+
+	/myhotkey = o.HotKey("Hello World!")
+
+Let's break this down. First, the name of the variable is "myhotkey". Then comes the definition. It is an **output** hotkey, so you use o.HotKey. We will explore other kinds of hotkeys soon. Then what keystrokes you want the hotkey to simulate. If it's a string, a letter or a number, like above, keep it in quotes. If it is a function key, other syntax applies. For example, if you want it to simulate pressing *ctrl* then use::
+
+	/myhotkey = o.HotKey(^)
+
+The function key synatx are:
+
+• ^ - Ctrl
+• + - Shift

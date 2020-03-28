@@ -135,6 +135,24 @@ You will wind up with this message::
 
 Yes, I did put "You numpty" in the error message. I want to make the errors as jovial as possible to put my users at ease when they make a mistake.
 
+INPUTTING WITH "INPUT"
+~~~~~~~~~~~~~~~~~~~~
+If you want the user to input something, use "INPUT". Wow!
+
+When a user inputs something, they type it in, and the program stores that as a variable. Here's the syntax **in Python**::
+
+	name = input("What's your name?")
+
+That means it's storing the user's **answer** to the "name" variable. **In Thirst**, use this syntax::
+
+	input "What's your name?" $name
+
+That's esentially the same thing. If you ever want to reference that variable::
+
+	OUTPT $name
+
+Yup, that's it. Easy as pieeee.
+
 "IF" statements
 ~~~~~~~~~~~~~~~~~~~~
 You're probably familiar with "if" statements. If not, here's how they're handled in **Python**::
@@ -186,6 +204,25 @@ ADVANCED SYNTAX
 ===========================
 There are a few more bits of syntax that don't fit into "My First Script". That's because they're a little more complicated.
 
+Sleep function
+~~~~~~~~~~~~~~~~~~~~
+Use the sleep function like the python time.sleep function. It simply creates a delay between commands for however long you tell it. Using::
+
+	sleep 2
+
+Will delay your code by two seconds. For example if your code is::
+
+	OUTPT "Hey!"
+	OUTPT "What's up?"
+
+Then it will just output them both straight away. But if you do::
+
+	OUTPT "Hey!"
+	sleep 2
+	OUTPT "What's up?"
+
+Then it will wait 2 seconds inbetween. Nice.
+
 An introduction to Potato Variables
 ~~~~~~~~~~~~~~~~~~~~
 Now, "Potato" Variables as I've decided to call them, cos it's funny, or call 'em "slash" variables if you're boring. Potato Variables are types of variables that are different from "regular variables". Regular Variables contain either strings, numbers or expressions. Potato variables can handle:
@@ -214,13 +251,41 @@ I left the space aftewards intentionally blank for different syntax.
 ~~~~~~~~~~~~~~~~~~~~
 Hotkeys are keystrokes simulated by a script. Say you wanted it so when you ran a script, the script would type "Hello World!" without you having to do anything. Sound amazing? First you have to define the potato variable::
 
-	/myhotkey = o.HotKey("Hello World!")
+	/myhotkey = .HotKey("Hello World!")
 
-Let's break this down. First, the name of the variable is "myhotkey". Then comes the definition. It is an **output** hotkey, so you use o.HotKey. We will explore other kinds of hotkeys soon. Then what keystrokes you want the hotkey to simulate. If it's a string, a letter or a number, like above, keep it in quotes. If it is a function key, other syntax applies. For example, if you want it to simulate pressing *ctrl* then use::
+Let's break this down. First, the name of the variable is "myhotkey". Then comes the definition. It's a hotkey potato, so you use .HotKey. We will explore other kinds of hotkeys soon. Then what keystrokes you want the hotkey to simulate. If it's a string, a letter or a number, like above, keep it in quotes. If it is a modifier or function key, other syntax applies. For example, if you want it to simulate pressing *ctrl* then use::
 
-	/myhotkey = o.HotKey(^)
+	/myhotkey = .HotKey(^)
 
-The function key synatx are:
+The modifier keys synatx are:
 
 • *^* - Ctrl
+
 • *+* - Shift
+
+Ok, there aren't any more yet. Now if you want to output this HotKey, use this command::
+
+	HKOUT /myhotkey
+
+Then it will do your hotkey for a default of 1 second. You can't change that yet, but wait for the next update.
+
+Now lets learn how to INPUT hotkeys.
+
+You still need to use that syntax for defining Hotkeys. When you input though, you need to open and close the hotkey input.::
+
+	HKINPT OPEN
+
+That command will make it so after it's executed, Hotkey input is allowed. Underneath it, to check an input use::
+
+	if HKINPT == /myhotkey let:
+		OUTPT "You pressed my HotKey!"
+
+Nice. If you want that to not work anymore, then just use::
+
+	HKINPT CLOS
+
+That's HotKeys done for now.
+
+.image Potatoes
+~~~~~~~~~~~~~~~~~~~~
+These are potato variables that store images. Say I draw the following masterpiece:

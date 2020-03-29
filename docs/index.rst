@@ -146,9 +146,9 @@ When a user inputs something, they type it in, and the program stores that as a 
 
 That means it's storing the user's **answer** to the "name" variable. **In Thirst**, use this syntax::
 
-	input "What's your name?" $name
+	input "Whats your name?" $name
 
-That's esentially the same thing. If you ever want to reference that variable::
+That's esentially the same thing. (Unfortunately, you can't yet use apostrophes (') yet in strings. Sorry.)) If you ever want to reference that variable::
 
 	OUTPT $name
 
@@ -214,13 +214,13 @@ Use the sleep function like the python time.sleep function. It simply creates a 
 Will delay your code by two seconds. For example if your code is::
 
 	OUTPT "Hey!"
-	OUTPT "What's up?"
+	OUTPT "Wassup?"
 
 Then it will just output them both straight away. But if you do::
 
 	OUTPT "Hey!"
 	sleep 2
-	OUTPT "What's up?"
+	OUTPT "Wassup?"
 
 Then it will wait 2 seconds inbetween. Nice.
 

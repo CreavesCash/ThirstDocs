@@ -325,3 +325,19 @@ Then, to play it, you also need to specify how many **seconds** you want it to l
 	WAVOUT /mynote(1)
 
 That will play middle C for 1 second.
+
+.audio Potatoes
+~~~~~~~~~~~~~~~~~~~~
+These are for storing audio files. I think .wav, .mp3 and .ogg will work fine, (might need to check that one). First, put the audio file you want in the same folder as your project and Thirst.exe. Now say my audio file is called "FuniculiFunicula.mp3", and it is a recording of the famous Italian song. First, to store it I would use this syntax::
+
+	/myaudio = .audio(FuniculiFunicula.mp3)
+
+It's as easy as that. Now to play it, use::
+
+	AUDIOOUT /myaudio
+
+Wow! Who'd have thunk it would be that easy to play Luigi Denza's masterpiece of the funicular railway commemoration genre!
+
+That's kind of it for now
+===========================
+That's all the syntax and stuff for now. Hooray.

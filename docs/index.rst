@@ -305,7 +305,7 @@ Say the filename was "A study of ennui.png" then I would first store the image i
 
 Then I would use the image output command::
 
-	IMOUT = /studyofennui
+	IMOUT /studyofennui
 
 Haha, I just noticed that command looks like "I'm Out". Oh, what fun.
 
@@ -313,3 +313,15 @@ Haha, I just noticed that command looks like "I'm Out". Oh, what fun.
 ~~~~~~~~~~~~~~~~~~~~
 If you want to learn the ways of creating discord bots and applications with Thirst, go to the special Discord Thirst docs at this link:
 https://thirstdocs.readthedocs.io/projects/Discord_Bots/en/latest/
+
+.sine Potatoes
+~~~~~~~~~~~~~~~~~~~~
+This kind of potato variable stores a **sine wave** sound. You can store it by specifying the hertz of the note you want to express. For example, middle C is 261.63 Hz, so you'd store it like this::
+
+	/mynote = .sine(261.63)
+
+Then, to play it, you also need to specify how many **seconds** you want it to last. So use "WAVOUT" to output the sine wave with the following syntax::
+
+	WAVOUT /mynote(1)
+
+That will play middle C for 1 second.
